@@ -55,7 +55,7 @@ class StringGetCharsExample {
         char[] ch = new char[10];
         ch[0] = 'a';
         try {
-            str.getChars(0, 5, ch, 1);
+            str.getChars(0, 5, ch, 2);
             System.out.println(ch);
         } catch (Exception ex) {
             System.out.println(ex);

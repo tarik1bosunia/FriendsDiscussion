@@ -1,4 +1,4 @@
-package tata.string.string_methods;
+package perfect.learn.class2.string.string_methods;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
@@ -132,3 +132,7 @@ class StringGetByteExample3 {
    }*/
 
 
+// byte,short,int ,long
+// float ,double
+// character
+// boolean

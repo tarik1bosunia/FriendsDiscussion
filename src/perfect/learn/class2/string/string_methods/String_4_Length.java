@@ -31,10 +31,19 @@ public class String_4_Length {
 
 class LengthExample1 {
     public static void main(String args[]) {
-        String s1 = "java";
-        String s2 = "python";
-        System.out.println("string length is: " + s1.length());//10 is the length of javatpoint string
-        System.out.println("string length is: " + s2.length());//6 is the length of python string
+        String str = new String("cse");
+        System.out.println(str);
+
+        str = "ru";
+
+        System.out.println(str.length());
+
+
+//        String s1 = "java";
+//        String s2 = "python";
+//        int len1 = s1.length();
+//        System.out.println("string length is: " + s1.length());
+//        System.out.println("string length is: " + s2.length());
     }
 }
 
@@ -58,7 +67,7 @@ class LengthExample2 {
 
 ///  The length() method is also used to reverse the string.
 class LengthExample3 {
-    // main method
+
     public static void main(String[] args) {
 
         String str = "Welcome To RU CSE";
@@ -68,7 +77,7 @@ class LengthExample3 {
 
         for (int i = 0; i < size; i++) {
             // printing in reverse order
-            System.out.print(str.charAt(str.length() - i - 1));
+            System.out.print(str.charAt(str.length() - 1 -i ));
         }
 
     }
@@ -83,9 +92,10 @@ class lengthExample4 {
 
         int sizeWithWhiteSpaces = str.length();
         str = str.replace(" ", "");
-        int sizeWithoutWithespace = str.length();
+        System.out.println(str);
+      int sizeWithoutWithespace = str.length();
 
 
-        System.out.printf("No fo whiteSpace: " + (sizeWithWhiteSpaces - sizeWithoutWithespace));
+        System.out.printf("Number of whiteSpace: " + (sizeWithWhiteSpaces - sizeWithoutWithespace));
     }
 }

@@ -3,8 +3,25 @@ package perfect.learn.class2.string.String_1;
 public class String_1 {
     public static void main(String[] args) {
         char[] ch = {'a', 'x', 'y', 'z'};
-        String s = new String(ch);
-        System.out.println(s);
+        String str = new String(ch);
+      //  System.out.println(s);
+
+//        for (char t : ch) {
+//            System.out.print(t + " ");
+//        }
+
+        ///normally strings are immutable in java
+
+        String str1 = "RU CSE";
+        str1 = "welcome";
+
+        String str2 = str1.toLowerCase();
+
+
+
+        System.out.println(str1);
+        System.out.println(str2);
+
     }
 
 }
@@ -19,8 +36,9 @@ public class String_1 {
         The java.lang.String class is used to create a string object.
 
         *  An array of characters works same as Java string. For example:
+
         char[] ch={'j','a','v','a','t','p','o','i','n','t'};
-        String s=new String(ch);
+        String s = new String(ch);
 
 * */
 
@@ -88,11 +106,66 @@ public class String_1 {
 class StringExample {
     public static void main(String args[]) {
         String s1 = "java";//creating string by Java string literal
+
         char ch[] = {'s', 't', 'r', 'i', 'n', 'g', 's'};
         String s2 = new String(ch);//converting char array to string
-        String s3 = new String("example");//creating Java string by new keyword
+
+        String s3 = new String("Example");//creating Java string by new keyword
+
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);
+    }
+}
+
+
+///18 dec 2021
+
+class CSE{
+    //constructor
+    private int point;
+    private int health;
+
+    void initVariable(){
+        point = 0;
+        health = 30;
+    }
+    void initGraphics(){
+
+    }
+
+    CSE(){
+
+        initVariable();
+        initGraphics();
+    }
+    //function
+
+    void nana(){
+
+    }
+
+    //getter
+    int getPoint(){
+        return point;
+    }
+    int getHealth(){
+        return health;
+    }
+    //setter
+    void setPoint(int point){
+        this.point = point;
+    }
+
+}
+
+class Student{
+    public static void main(String[] args) {
+        CSE a = new CSE();
+    /*    System.out.println(a.getPoint());
+
+        a.setPoint(100);
+        System.out.println(a.getPoint());*/
+
     }
 }

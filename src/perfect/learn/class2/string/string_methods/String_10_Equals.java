@@ -1,4 +1,4 @@
-package tata.string.string_methods;
+package perfect.learn.class2.string.string_methods;
 
 import java.util.ArrayList;
 

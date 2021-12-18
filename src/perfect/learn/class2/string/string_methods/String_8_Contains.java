@@ -42,10 +42,15 @@ public class String_8_Contains {
 */
 class ContainsExample {
     public static void main(String args[]) {
-        String name = "what do you know about me";
-        System.out.println(name.contains("do you know"));
-        System.out.println(name.contains("about"));
-        System.out.println(name.contains("hello"));
+        String str1 = "the name of our country is Bangladesh. the capital of Bangladesh is Dhaka";
+
+        System.out.println("Bangladesh");
+
+
+//        String name = "what do you know about me";
+//        System.out.println(name.contains("do you know"));
+//        System.out.println(name.contains("about"));
+//        System.out.println(name.contains("hello"));
     }
 }
 

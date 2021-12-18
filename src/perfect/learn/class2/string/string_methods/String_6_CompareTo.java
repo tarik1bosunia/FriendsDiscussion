@@ -1,4 +1,4 @@
-package tata.string.string_methods;
+package perfect.learn.class2.string.string_methods;
 
 public class String_6_CompareTo {
     public static void main(String[] args) {
@@ -9,7 +9,8 @@ public class String_6_CompareTo {
         Java String compareTo()
 
         **The Java String class compareTo() method compares the given string with
-        the current string lexicographically. It returns a positive number, negative number, or 0.
+        the current string lexicographically.
+         It returns a positive number, negative number, or 0.
 
         **It compares strings on the basis of the Unicode value of each character in the strings.
 
@@ -64,15 +65,23 @@ class CompareToExample1 {
     public static void main(String args[]) {
         String s1 = "hello";
         String s2 = "hello";
+        String s = "HELLO";
         String s3 = "meklo";
         String s4 = "hemlo";
         String s5 = "flag";
         String s6 = "hello guys";
-        System.out.println(s1.compareTo(s2));// 0 because both are equal
-        System.out.println(s1.compareTo(s3));// -5 because "h" is 5 times lower than "m"
-        System.out.println(s1.compareTo(s4));// -1 because "l" is 1 times lower than "m"
-        System.out.println(s1.compareTo(s5));// 2 because "h" is 2 times greater than "f"
-        System.out.println(s1.compareTo(s6));// -5 because s6 is 5 more character than s1
+
+
+
+
+
+    ///    System.out.println(s1.compareTo(s2));// 0 because both are equal
+   //     System.out.println(s1.compareTo(s));
+
+ //      System.out.println(s1.compareTo(s3));// -5 because "h" is 5 times lower than "m"
+//        System.out.println(s1.compareTo(s4));// -1 because "l" is 1 times lower than "m"
+//        System.out.println(s1.compareTo(s5));// 2 because "h" is 2 times greater than "f"
+//        System.out.println(s1.compareTo(s6));// -5 because s6 is 5 more character than s1
     }
 }
 

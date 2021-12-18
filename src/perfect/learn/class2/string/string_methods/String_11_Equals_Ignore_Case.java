@@ -81,7 +81,7 @@ class EqualsIgnoreCaseExample1 {
     public static void main(String args[]) {
         String s1 = "bangladesh";
         String s2 = "bangladesh";
-        String s3 = "BANGLADESH";
+        String s3 = "BANGlADESH";
         String s4 = "maxico";
         System.out.println(s1.equalsIgnoreCase(s2));//true because content and case both are same
         System.out.println(s1.equalsIgnoreCase(s3));//true because case is ignored

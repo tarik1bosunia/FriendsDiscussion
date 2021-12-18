@@ -35,9 +35,9 @@ public class String_9_EndsWith {
 class EndsWithExample1 {
     public static void main(String args[]) {
         String s1 = "the name of our country of bangladesh";
-        System.out.println(s1.endsWith("h"));
+        System.out.println(s1.endsWith("country to bangladesh"));
 
-        System.out.println(s1.endsWith("desh"));
+      //  System.out.println(s1.endsWith("desh"));
     }
 }
 

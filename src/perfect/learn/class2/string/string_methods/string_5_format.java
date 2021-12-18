@@ -49,12 +49,14 @@ public class string_5_format {
 */
 
 class FormatExample1 {
+
     public static void main(String[] args) {
+
         String name = "tarik";
         int age = 22;
-        String sf1 = String.format("name: %s", name);
+        String sf1 = String.format("name: %s\n%d", name,50);
         String sf2 = String.format("age: %d", age);
-        String sf3 = String.format("value is %.12f", 15.12367);//return 12 char fractional part filling with 0
+        String sf3 = String.format("value is %.2f", 15.12367);//return 12 char fractional part filling with 0
 
         System.out.println(sf1);
         System.out.println(sf2);
@@ -84,9 +86,9 @@ class FormatExample2 {
 class FormatExample3 {
     public static void main(String[] args) {
         String str1 = String.format("%d", 101);
-        String str2 = String.format("|%10d|", 101);//specifying length of integer
-        String str3 = String.format("|%-10d|", 101);//// Left-justifying within the specified width
-        String str4 = String.format("% d", 101);//shifting 1 from left
+        String str2 = String.format("%10d", 101);//specifying length of integer
+       String str3 = String.format("|%-10d|", 101);//// Left-justifying within the specified width
+       String str4 = String.format("% d", 101);//shifting 1 from left
         String str5 = String.format("|%010d|", 101); // Filling with zeroes
 
         System.out.println(str1);
