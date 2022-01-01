@@ -4,6 +4,13 @@ public class String_14_IndexOf {
     public static void main(String[] args) {
 
     }
+    /*1	int indexOf(int ch)	It returns the index position for the given char value
+    2	int indexOf(int ch, int fromIndex)	It returns the index position for the
+     given char value and from index
+    3	int indexOf(String substring)	It returns the index position for the given substring
+    4	int indexOf(String substring, int fromIndex)	It returns the index
+     position for the given substring and from index
+     */
 }
 /*
    # Java String indexOf()
