@@ -18,7 +18,6 @@ class FrameDemo extends JFrame{
         setTitle("TATA");
         setVisible(true);
 
-
     }
 }
 
